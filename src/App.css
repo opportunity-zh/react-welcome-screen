@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background: #e8eff4;
+}
+
+#root {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #323d4a;
+  margin: 60px;
+}
+
+.site-title {
+  font-size: 62px;
+  font-weight: 900;
+  margin: 80px 0 20px 0;
+}
+
+.site-description {
+  font-size: 62px;
+  color: #9aa7b1;
+  font-weight: 500;
+  margin: 0;
+}
+
+.entry-list {
+  padding-left: 0;
+}
+
+.entry-item {
+  padding: 35px 40px;
+  margin: 40px 0;
+  background: #0f05a0;
+  font-size: 28px;
+  line-height: 1.3;
+  list-style: none;
+}
+
+.entry-item-highlight {
+  padding: 35px 40px;
+  margin: 40px 0;
+  background: #ff6600;
+  font-size: 28px;
+  line-height: 1.3;
+  list-style: none;
+}
+.entry-item-highlight .entry-daytime {
+  color: #2a334e;
+}
+.entry-item-highlight .entry-title {
+  color: #ffcfcf;
+}
+.entry-item-highlight .entry-description {
+  color: #ffe3e3;
+}
+
+.entry-daytime {
+  color: #eb5e00;
+  font-weight: 900;
+}
+
+.entry-title {
+  font-size: inherit;
+  margin: 0;
+  color: #ffbfab;
+  font-weight: 900;
+}
+
+.entry-description {
+  color: #ffbfab;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  background: #fff;
+}
+
+.footer img {
+  height: 50px;
+}
